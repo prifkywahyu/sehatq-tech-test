@@ -1,0 +1,1123 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-22T04:28:31.651Z",
+        "line": 6,
+        "name": "User success login to SehatQ web",
+        "description": "",
+        "id": "login;user-success-login-to-sehatq-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.chrome.ChromeDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.driver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:20)\r\n\tat pages.LoginPage.goToLoginPage(LoginPage.java:29)\r\n\tat stepdefs.LoginStepDefs.userAlreadyInLoginPage(LoginStepDefs.java:16)\r\n\tat ✽.user already in login page(file:///C:/Users/RIFKY/IdeaProjects/sehatq-web-test/src/test/resources/features/Login.feature:7)\r\n",
+              "duration": 11730800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userAlreadyInLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user input email \"prifkywahyu@gmail.com\" and password \"jMwxLdhk3Gb6EEc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prifkywahyu@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"jMwxLdhk3Gb6EEc\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.LoginStepDefs.userInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user click button login",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user is successfully logged in",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userIsSuccessfullyLoggedIn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.721Z",
+        "line": 20,
+        "name": "User failed login to SehatQ web",
+        "description": "",
+        "id": "login;user-failed-login-to-sehatq-web;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.chrome.ChromeDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.driver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:20)\r\n\tat pages.LoginPage.goToLoginPage(LoginPage.java:29)\r\n\tat stepdefs.LoginStepDefs.userAlreadyInLoginPage(LoginStepDefs.java:16)\r\n\tat ✽.user already in login page(file:///C:/Users/RIFKY/IdeaProjects/sehatq-web-test/src/test/resources/features/Login.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userAlreadyInLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user input email \"prifkywahyu@gmail.com\" and password \"As4!asal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prifkywahyu@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"As4!asal\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.LoginStepDefs.userInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click button login",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10578500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user failed to login with error message",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userFailedToLoginWithErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.736Z",
+        "line": 21,
+        "name": "User failed login to SehatQ web",
+        "description": "",
+        "id": "login;user-failed-login-to-sehatq-web;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.chrome.ChromeDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.driver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:20)\r\n\tat pages.LoginPage.goToLoginPage(LoginPage.java:29)\r\n\tat stepdefs.LoginStepDefs.userAlreadyInLoginPage(LoginStepDefs.java:16)\r\n\tat ✽.user already in login page(file:///C:/Users/RIFKY/IdeaProjects/sehatq-web-test/src/test/resources/features/Login.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userAlreadyInLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user input email \"emailsaja@gmail.com\" and password \"p4Duka*$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"emailsaja@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"p4Duka*$\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepdefs.LoginStepDefs.userInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click button login",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user failed to login with error message",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userFailedToLoginWithErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.743Z",
+        "line": 22,
+        "name": "User failed login to SehatQ web",
+        "description": "",
+        "id": "login;user-failed-login-to-sehatq-web;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.chrome.ChromeDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.driver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:20)\r\n\tat pages.LoginPage.goToLoginPage(LoginPage.java:29)\r\n\tat stepdefs.LoginStepDefs.userAlreadyInLoginPage(LoginStepDefs.java:16)\r\n\tat ✽.user already in login page(file:///C:/Users/RIFKY/IdeaProjects/sehatq-web-test/src/test/resources/features/Login.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userAlreadyInLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user input email \"testing.new@gmail.com\" and password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testing.new@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.LoginStepDefs.userInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click button login",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user failed to login with error message",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userFailedToLoginWithErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.751Z",
+        "line": 23,
+        "name": "User failed login to SehatQ web",
+        "description": "",
+        "id": "login;user-failed-login-to-sehatq-web;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.chrome.ChromeDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.driver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:20)\r\n\tat pages.LoginPage.goToLoginPage(LoginPage.java:29)\r\n\tat stepdefs.LoginStepDefs.userAlreadyInLoginPage(LoginStepDefs.java:16)\r\n\tat ✽.user already in login page(file:///C:/Users/RIFKY/IdeaProjects/sehatq-web-test/src/test/resources/features/Login.feature:14)\r\n",
+              "duration": 501400,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userAlreadyInLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user input email \"@gmail.com\" and password \"Merauke1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Merauke1\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.LoginStepDefs.userInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click button login",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user failed to login with error message",
+            "match": {
+              "location": "stepdefs.LoginStepDefs.userFailedToLoginWithErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  All scenarios for login module",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-22T04:28:31.787Z",
+        "line": 6,
+        "name": "User success register to SehatQ web",
+        "description": "",
+        "id": "register;user-success-register-to-sehatq-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user input full name, email and password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 930600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user success redirect to OTP page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.801Z",
+        "line": 22,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"\", email \"new.email@sehatq.id\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.816Z",
+        "line": 23,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Symbol (\u0026)\", email \"new.email@sehatq.id\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.825Z",
+        "line": 24,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Angka 10925\", email \"new.email@sehatq.id\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.835Z",
+        "line": 25,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.845Z",
+        "line": 26,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"@sehatq.id\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.851Z",
+        "line": 27,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"new.email@\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.861Z",
+        "line": 28,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"new.emailsehatq.id\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.870Z",
+        "line": 29,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"prifkywahyu@gmail.com\" and password \"in!Passw0rd\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1013400,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.876Z",
+        "line": 30,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"new.email@sehatq.id\" and password \"\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T04:28:31.885Z",
+        "line": 31,
+        "name": "User failed register to SehatQ web",
+        "description": "",
+        "id": "register;user-failed-register-to-sehatq-web;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user already in register page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user input full name \"Bara Nuruddin\", email \"new.email@sehatq.id\" and password \"P4s!\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user check terms and conditions",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click button register",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user failed to register with error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  All scenarios for register module",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Register.feature",
+    "tags": [
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
